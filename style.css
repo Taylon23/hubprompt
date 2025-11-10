@@ -676,9 +676,10 @@ a {
 }
 
 .adriana-photo,
-.adriana-photo-placeholder {
+.adriana-photo-placeholder img {
     width: 100%;
-    max-width: 480px;
+    max-width: 680px;
+    max-height: 500px;
     aspect-ratio: 3 / 4;
     border-radius: 26px;
     border: 1px solid rgba(255, 255, 255, 0.16);
@@ -687,7 +688,7 @@ a {
     background: radial-gradient(circle at top left, rgba(234, 91, 100, 0.32), rgba(5, 8, 22, 0.98));
 }
 
-.adriana-photo {
+.adriana-photo img{
     object-fit: cover;
 }
 
@@ -751,6 +752,7 @@ a {
     .adriana-photo-wrap {
         order: -1;
     }
+
 }
 
 
