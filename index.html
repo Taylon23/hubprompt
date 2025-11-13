@@ -26,7 +26,6 @@
         <!-- HEADER + MENU -->
         <header class="top-bar">
             <div class="brand">
-                <!-- Troque o src abaixo pelo caminho da sua logo -->
                 <img src="./assets/Imagem do WhatsApp de 2025-10-01 à(s) 16.12.24_e178acae.jpg" alt="HubPrompt"
                     class="brand-logo">
                 <div class="brand-text">
@@ -36,17 +35,18 @@
             </div>
 
             <nav class="main-nav">
-                <a href="./index.html">Home</a>
-                <a href="#servicos">Serviços</a>
-                <a href="planos.html">Planos</a>
-                <a href="#sobre">Sobre nós</a>
-                <a href="https://wa.me/559889181471?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20HubPrompt%20e%20quero%20falar%20sobre%20as%20solu%C3%A7%C3%B5es%20com%20IA."
-                    target="_blank" rel="noopener" class="nav-cta">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    Fale com a gente
-                </a>
+                <a href="./index.html" style="text-decoration: none;">Home</a>
+                <a href="#servicos" style="text-decoration: none;">Serviços</a>
+                <a href="planos.html" style="text-decoration: none;">Planos</a>
+                <a href="#sobre" style="text-decoration: none;">Sobre nós</a>
             </nav>
+
+            <!-- Botão para alternar o tema -->
+            <button id="theme-toggle" class="btn-secondary" style="margin-left:auto;">
+                🌙 Modo Escuro
+            </button>
         </header>
+
 
         <main class="hero">
 
@@ -61,10 +61,7 @@
                         </p>
 
                         <div class="home-actions">
-                            <a href="planos.html" class="btn-primary btn-home">
-                                Ver planos
-                            </a>
-                            <a href="#servicos" class="btn-secondary">
+                            <a href="#servicos" class="btn-secondary" style="text-decoration: none;">
                                 Conhecer serviços
                             </a>
                         </div>
@@ -203,9 +200,10 @@
             <!-- PLANOS -->
             <section class="section-planos">
                 <div class="conteudo-planos">
-                    <h2>Conheça Nossos Planos</h2>
-                    <p>Escolha o melhor plano para sua empresa e transforme o seu atendimento digital por WhatsApp e Direct com a Hubprompt.</p>
-                    <a href="planos.html" class="btn-planos">Ver Planos</a>
+                    <h2>Conheça Nossos Planos Para Automatizar Seu Whatsapp e Instagram</h2>
+                    <p>Escolha o melhor plano para sua empresa e transforme o seu atendimento digital por WhatsApp e
+                        Direct do instagram com a Hubprompt.</p>
+                    <a href="planos.html" class="btn-planos" style="text-decoration: none;">Ver Planos</a>
                 </div>
             </section>
 
@@ -247,7 +245,7 @@
 
                         <div class="adriana-cta">
                             <a href="https://wa.me/559889181471?text=Ol%C3%A1%2C%20Prof.%C2%AA%20Adriana%2C%20vim%20do%20site%20da%20HubPrompt%20e%20gostaria%20de%20agendar%20uma%20conversa."
-                                target="_blank" rel="noopener" class="btn-primary btn-home">
+                                target="_blank" rel="noopener" class="btn-primary btn-home" style="text-decoration: none;">
                                 Falar com a Prof. Adriana
                             </a>
                             <a href="https://www.instagram.com/hubprompt.ofc/" target="_blank" rel="noopener"
@@ -315,6 +313,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="./toglee_theme.js"></script>
 </body>
 
 </html>

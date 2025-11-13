@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,23 +9,24 @@
     <!-- Fonte Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Ícones (Instagram / WhatsApp) -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
-     <!-- HEADER + MENU -->
+    <!-- HEADER + MENU -->
     <header class="top-bar">
         <div class="brand">
             <!-- Troque o src abaixo pelo caminho da sua logo -->
-            <img src="./assets/Imagem do WhatsApp de 2025-10-01 à(s) 16.12.24_e178acae.jpg"
-                 alt="HubPrompt" class="brand-logo">
+            <img src="./assets/Imagem do WhatsApp de 2025-10-01 à(s) 16.12.24_e178acae.jpg" alt="HubPrompt"
+                class="brand-logo">
             <div class="brand-text">
                 <span class="brand-name">HubPrompt</span>
                 <span class="brand-tagline">Ecossistema de inovação com IA</span>
@@ -32,140 +34,138 @@
         </div>
 
         <nav class="main-nav">
-            <a href="./index.html">Home</a>
-            <a href="https://wa.me/559889181471?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20HubPrompt%20e%20quero%20falar%20sobre%20as%20solu%C3%A7%C3%B5es%20com%20IA."
-               target="_blank" rel="noopener"
-               class="nav-cta">
-                <i class="fa-brands fa-whatsapp"></i>
-                Fale com a gente
-            </a>
+            <a href="./index.html" style="text-decoration: none;">Home</a>
         </nav>
+        <!-- Botão para alternar o tema -->
+        <button id="theme-toggle" class="btn-secondary" style="margin-left:auto;">
+            🌙 Modo Escuro
+        </button>
     </header>
     <section class="plans">
-                <div class="plans-toggle">
-                    <span class="plans-label"> Escolha um dos nossos planos mensais para automatizar seu WhatsApp e Instragram com atendimento 24 horas por dia, 7 dias por semana.</span>
+        <div class="plans-toggle">
+            <span class="plans-label"> Escolha um dos nossos planos mensais para automatizar seu WhatsApp e Instragram
+                com atendimento 24 horas por dia, 7 dias por semana.</span>
+        </div>
+
+        <div class="plans-grid">
+            <!-- PLANO 1 -->
+            <article class="plan-card">
+                <div class="plan-header">
+                    <span class="plan-badge">Essencial</span>
+                    <h3>Hub Básico</h3>
+                    <p class="plan-subtitle">
+                        Para quem está começando a automatizar o atendimento.
+                    </p>
+                    <div class="plan-price">
+                        <span class="currency">R$</span>
+                        <span class="value">330</span>
+                        <span class="period">/mês</span>
+                    </div>
                 </div>
 
-                <div class="plans-grid">
-                    <!-- PLANO 1 -->
-                    <article class="plan-card">
-                        <div class="plan-header">
-                            <span class="plan-badge">Essencial</span>
-                            <h3>Hub Básico</h3>
-                            <p class="plan-subtitle">
-                                Para quem está começando a automatizar o atendimento.
-                            </p>
-                            <div class="plan-price">
-                                <span class="currency">R$</span>
-                                <span class="value">330</span>
-                                <span class="period">/mês</span>
-                            </div>
-                        </div>
+                <ul class="plan-features">
+                    <li><span>1 canal WhatsApp incluso</span></li>
+                    <li><span>3 chatbot de atendimento</span></li>
+                    <li><span>2 chatbot de automação (follow up)</span></li>
+                    <li><span>CRM incluído com 2 painéis</span></li>
+                    <li><span>Até 3 usuários</span></li>
+                    <li><span>Transcrição de áudio</span></li>
+                    <li><span>2 agentes de IA</span></li>
+                    <li><span>2 funcionários digitais</span></li>
+                </ul>
 
-                        <ul class="plan-features">
-                            <li><span>1 canal WhatsApp incluso</span></li>
-                            <li><span>3 chatbot de atendimento</span></li>
-                            <li><span>2 chatbot de automação (follow up)</span></li>
-                            <li><span>CRM incluído com 2 painéis</span></li>
-                            <li><span>Até 3 usuários</span></li>
-                            <li><span>Transcrição de áudio</span></li>
-                            <li><span>2 agentes de IA</span></li>
-                            <li><span>2 funcionários digitais</span></li>
-                        </ul>
-
-                        <div class="plan-footer">
-                            <a href="https://wa.me/559889181471?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20HubPrompt%20e%20tenho%20interesse%20no%20plano%20Starter."
-                               target="_blank" rel="noopener"
-                               class="btn-primary">
-                                Escolher plano HubBase
-                            </a>
-                            <p class="plan-footnote">Indicado para pequenos negócios e testes iniciais.</p>
-                        </div>
-                    </article>
-
-                    <!-- PLANO 2 (DESTAQUE) -->
-                    <article class="plan-card plan-featured">
-                        <div class="plan-ribbon">Mais escolhido</div>
-
-                        <div class="plan-header">
-                            <span class="plan-badge">Crescimento</span>
-                            <h3>HubPlus</h3>
-                            <p class="plan-subtitle">
-                                Para equipes que precisam de automação em escala.
-                            </p>
-                            <div class="plan-price">
-                                <span class="currency">R$</span>
-                                <span class="value">990</span>
-                                <span class="period">/mês</span>
-                            </div>
-                        </div>
-
-                        <ul class="plan-features">
-                            
-                            <li><span>3 canal WhatsApp incluso</span></li>
-                            <li><span>6 chatbot de atendimento</span></li>
-                            <li><span>4 chatbot de automação (follow up)</span></li>
-                            <li><span>CRM incluído com 4 painéis</span></li>
-                            <li><span>Até 6 usuários</span></li>
-                            <li><span>Transcrição de áudio</span></li>
-                            <li><span>4 agentes de IA</span></li>
-                            <li><span>3 funcionários digitais</span></li>
-                       
-                        </ul>
-
-                        <div class="plan-footer">
-                            <a href="https://wa.me/559889181471?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20HubPrompt%20e%20tenho%20interesse%20no%20plano%20Professional."
-                               target="_blank" rel="noopener"
-                               class="btn-primary btn-primary-full">
-                                Escolher plano HubPlus
-                            </a>
-                            <p class="plan-footnote">
-                                Ideal para empresas em expansão com fluxo constante de atendimento.
-                            </p>
-                        </div>
-                    </article>
-
-                    <!-- PLANO 3 -->
-                    <article class="plan-card">
-                        <div class="plan-header">
-                            <span class="plan-badge">Alta performance</span>
-                            <h3>HubPro</h3>
-                            <p class="plan-subtitle">
-                                Para operações que exigem alto volume, customização e robustez.
-                            </p>
-                            <div class="plan-price">
-                                <span class="currency">R$</span>
-                                <span class="value">1650</span>
-                                <span class="period">/mês</span>
-                            </div>
-                            <p class="plan-note">
-                               
-                            </p>
-                        </div>
-
-                        <ul class="plan-features">
-                            <li><span>5 canais WhatsApp inclusos</span></li>
-                            <li><span>12 chatbots de atendimento</span></li>
-                            <li><span>8 chatbots de automação (follow up)</span></li>
-                            <li><span>CRM incluído com 10 painéis</span></li>
-                            <li><span>Até 10 usuários</span></li>
-                            <li><span>Transcrição de áudio</span></li>
-                            <li><span>8 agentes de IA</span></li>
-                            <li><span>4 funcionários digitais</span></li>
-                        </ul>
-
-                        <div class="plan-footer">
-                            <a href="https://wa.me/559889181471?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20HubPrompt%20e%20quero%20um%20projeto%20Enterprise%20sob%20medida."
-                               target="_blank" rel="noopener"
-                               class="btn-primary">
-                                Escolher plano HubPro
-                            </a>
-                            <p class="plan-footnote">
-                                Perfeito para times maiores e projetos sob medida.
-                            </p>
-                        </div>
-                    </article>
+                <div class="plan-footer">
+                    <a href="https://wa.me/559889181471?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20HubPrompt%20e%20tenho%20interesse%20no%20plano%20Starter."
+                        target="_blank" rel="noopener" class="btn-primary">
+                        Escolher plano HubBase
+                    </a>
+                    <p class="plan-footnote">Indicado para pequenos negócios e testes iniciais.</p>
                 </div>
-            </section>
+            </article>
+
+            <!-- PLANO 2 (DESTAQUE) -->
+            <article class="plan-card plan-featured">
+                <div class="plan-ribbon">Mais escolhido</div>
+
+                <div class="plan-header">
+                    <span class="plan-badge">Crescimento</span>
+                    <h3>HubPlus</h3>
+                    <p class="plan-subtitle">
+                        Para equipes que precisam de automação em escala.
+                    </p>
+                    <div class="plan-price">
+                        <span class="currency">R$</span>
+                        <span class="value">990</span>
+                        <span class="period">/mês</span>
+                    </div>
+                </div>
+
+                <ul class="plan-features">
+
+                    <li><span>3 canal WhatsApp incluso</span></li>
+                    <li><span>6 chatbot de atendimento</span></li>
+                    <li><span>4 chatbot de automação (follow up)</span></li>
+                    <li><span>CRM incluído com 4 painéis</span></li>
+                    <li><span>Até 6 usuários</span></li>
+                    <li><span>Transcrição de áudio</span></li>
+                    <li><span>4 agentes de IA</span></li>
+                    <li><span>3 funcionários digitais</span></li>
+
+                </ul>
+
+                <div class="plan-footer">
+                    <a href="https://wa.me/559889181471?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20HubPrompt%20e%20tenho%20interesse%20no%20plano%20Professional."
+                        target="_blank" rel="noopener" class="btn-primary btn-primary-full">
+                        Escolher plano HubPlus
+                    </a>
+                    <p class="plan-footnote">
+                        Ideal para empresas em expansão com fluxo constante de atendimento.
+                    </p>
+                </div>
+            </article>
+
+            <!-- PLANO 3 -->
+            <article class="plan-card">
+                <div class="plan-header">
+                    <span class="plan-badge">Alta performance</span>
+                    <h3>HubPro</h3>
+                    <p class="plan-subtitle">
+                        Para operações que exigem alto volume, customização e robustez.
+                    </p>
+                    <div class="plan-price">
+                        <span class="currency">R$</span>
+                        <span class="value">1650</span>
+                        <span class="period">/mês</span>
+                    </div>
+                    <p class="plan-note">
+
+                    </p>
+                </div>
+
+                <ul class="plan-features">
+                    <li><span>5 canais WhatsApp inclusos</span></li>
+                    <li><span>12 chatbots de atendimento</span></li>
+                    <li><span>8 chatbots de automação (follow up)</span></li>
+                    <li><span>CRM incluído com 10 painéis</span></li>
+                    <li><span>Até 10 usuários</span></li>
+                    <li><span>Transcrição de áudio</span></li>
+                    <li><span>8 agentes de IA</span></li>
+                    <li><span>4 funcionários digitais</span></li>
+                </ul>
+
+                <div class="plan-footer">
+                    <a href="https://wa.me/559889181471?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20HubPrompt%20e%20quero%20um%20projeto%20Enterprise%20sob%20medida."
+                        target="_blank" rel="noopener" class="btn-primary">
+                        Escolher plano HubPro
+                    </a>
+                    <p class="plan-footnote">
+                        Perfeito para times maiores e projetos sob medida.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
 </body>
+<script src="./toglee_theme.js"></script>
+
 </html>
