@@ -674,7 +674,6 @@ body {
 
 .plans-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 24px;
 }
 
@@ -765,6 +764,64 @@ body {
     background: var(--brand-coral);
     animation: pulse 2s infinite;
 }
+
+.section-orcamento {
+    background: var(--grad-brand);
+    padding: 100px 20px;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #1a1d2b;
+}
+
+.conteudo-orcamento {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.section-orcamento h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.section-orcamento p {
+    font-size: 1.05rem;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.orcamento-lista {
+    list-style: none;
+    margin: 0 auto 36px;
+    padding: 0;
+    text-align: left;
+    max-width: 640px;
+}
+
+.orcamento-lista li {
+    padding: 8px 0;
+    font-size: 0.96rem;
+    color: #fff;
+    border-bottom: 1px solid rgba(234, 91, 100, 0.15);
+}
+
+.section-orcamento .btn-planos {
+    background: #fff;
+    color: var(--brand-blue);
+    padding: 14px 40px;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.section-orcamento .btn-planos:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(234, 91, 100, 0.25);
+}
+
 
 @keyframes pulse {
 
@@ -1184,6 +1241,10 @@ body {
         gap: 16px;
     }
 
+    .services-grid {
+    grid-template-columns: initial;
+  }
+
     .hero {
         padding: 10px;
     }
@@ -1213,6 +1274,10 @@ body {
 
     .section-planos h2 {
         font-size: 2rem;
+    }
+
+    .plans{
+        padding: 3%;
     }
 }
 

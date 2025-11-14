@@ -662,6 +662,77 @@ a {
     color: var(--text-soft);
 }
 
+/* =============================
+   SECTION ORÇAMENTO – DARK MODE
+   ============================= */
+
+ .section-orcamento {
+  background: linear-gradient(
+      135deg,
+      rgba(234, 91, 100, 0.12),
+      rgba(11, 117, 136, 0.06)
+  );
+  padding: 100px 20px;
+  text-align: center;
+  color: #f3f5ff; /* texto claro */
+}
+
+ .conteudo-orcamento {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+ .section-orcamento h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  background: var(--gradient-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ .section-orcamento p {
+  font-size: 1.05rem;
+  color: #c7cce2; /* cinza-azulado suave */
+  margin-bottom: 28px;
+}
+
+ .orcamento-lista {
+  list-style: none;
+  margin: 0 auto 36px;
+  padding: 0;
+  text-align: left;
+  max-width: 640px;
+}
+
+ .orcamento-lista li {
+  padding: 10px 0;
+  font-size: 1rem;
+  color: #e5e8f5;
+  border-bottom: 1px solid rgba(234,91,100,0.15);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Botão */
+ .section-orcamento .btn-planos {
+  background: linear-gradient(135deg, #ea5b64, #3b4ddd);
+  color: #fff;
+  padding: 14px 40px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+}
+
+ .section-orcamento .btn-planos:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 38px rgba(234, 91, 100, 0.35);
+}
+
+
 /* LEGAL TEXT */
 
 .legal-text {
